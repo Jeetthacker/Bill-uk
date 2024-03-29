@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* pencil */
+.pencil {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+}
+
+.pencilmain {
+    background-color: #EF6A25;
+
+}
+
+.s1 {
+    color: #FFFFFF;
+}
+
+.s2 {
+    color: #FFFFFF;
+}
+
+.s3 {
+    color: #FFFFFF;
+
+}
+
+.s4 {
+    color: #FFFFFF;
+
+}
+
+/* search bar */
+.head-logo {
+    padding: 14px 0;
+}
+
+.head {
+    display: flex;
+}
+
+.dnone {
+    display: none;
+}
