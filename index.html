@@ -21,13 +21,20 @@
                     <div>
                         <span class="s2">No minimum order value | FREE delivery on orders over £50 ex VAT </span>
                     </div>
-                    <div>
-                        <span class="s3">Incl. VAT </span>
+                    <div class="right">
+                        <div>
+                            <span class="s3">Incl. VAT </span>
+                        </div>
+                        <div class="toggle-btn">
+                            <form action="#">
+                                <input type="checkbox" id="check">
+                                <label for="check"></label>
+                            </form>
+                        </div>
+                        <div>
+                            <span class="s4">Excl. VAT</span>
+                        </div>
                     </div>
-                    <div>
-                        <span class="s4">Excl. VAT</span>
-                    </div>
-
                 </div>
             </div>
         </div>
@@ -37,22 +44,23 @@
         <div class="head-main">
             <div class="container">
                 <div class="head">
-                    <div class="head-logo"><img src="./img/img log.png" alt="">
+                    <div class="head-logo">
+                        <img src="./img/img log.png" alt="">
                     </div>
                     <div>
                         <!-- search bar -->
                         <form class="hearder-section" action="#">
-                            <label for="search bar" class="dnone">Find</label>
+                            <!-- <label for="search bar" class="dnone">Find</label> -->
                             <input class="search-input" type="search" name="search"
                                 placeholder="What Are You Looking For ?">
-                            <input class="Find-submit" type="submit" value="Find">
+                            <input class="find-submit" type="submit" value="Find">
 
                         </form>
                     </div>
-
+                    <!-- account -->
                     <div class="account-main">
                         <div class="account">
-                            <div class="My-account-main">
+                            <div class="my-account-main">
                                 <img src="./img/account.png" alt="account">
 
                                 <div class="my-account">
@@ -67,6 +75,20 @@
                                         </select>
                                     </form>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cart -->
+                    <div class="cart-main">
+                        <div class="cart">
+                            <div class="div"><img src="./img/my orders.svg" alt="">
+                            </div>
+
+
+                            <div class="cart-item">
+                                <p>Item(0) In Basket</p>
+                                <span>Total : £ 00.00
+                                </span>
                             </div>
                         </div>
                     </div>
