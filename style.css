@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,19 +27,23 @@
 
 .s1 {
     color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .s2 {
     color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .s3 {
     color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
 
 }
 
 .s4 {
     color: #FFFFFF;
+    font-family: "Roboto Condensed", sans-serif;
 
 }
 
@@ -89,6 +95,22 @@
 .head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+.head .hearder-section .search-input {
+    background-color: #F7F7F7;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.head .hearder-section .find-submit {
+    padding: 17px 43px 17px 44px;
+    border-radius: 5px;
+    background-color: #EF6A25;
+    color: #FFFFFF;
+    position: absolute;
+    right: 0;
 }
 
 .dnone {
@@ -102,11 +124,17 @@
     font-weight: 300;
     line-height: 16.41px;
     color: #00000059;
+    background: url(./img/search\ Icon.png) no-repeat;
+    background-position: 12px 12px;
 
 }
 
-.hearder-section .find-submit {
-    position: ;
+.hearder-section form {
+    border-radius: 5px;
+    border-color: #F7F7F7;
+    position: relative;
+    padding-right: 0;
+
 }
 
 
@@ -116,8 +144,36 @@
     display: flex;
 }
 
+.select-acc {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #000000;
+    line-height: 18.75px;
+}
+
 
 /* cart */
 .cart {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item {
+    padding: 46px 53px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.cart-item p {
+    color: #3753AF;
+}
+
+.cart-item span {
+    color: #000000;
+}
+
+/* nav-bar */
+.nav-bar {
+    display: flex;
+    gap: 71px;
+    text-align: center;
 }
