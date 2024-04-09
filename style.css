@@ -172,8 +172,66 @@
 }
 
 /* nav-bar */
-.nav-bar {
+.nav-bar ul {
     display: flex;
     gap: 71px;
     text-align: center;
+    list-style-type: none;
+
 }
+
+.nav-bar ul a {
+    text-decoration: none;
+}
+
+
+.nav-main {
+    background-color: #F7F7F7;
+}
+
+/* heading */
+.heading p {
+    margin: 41px 0 0 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #EF6A25;
+    text-align: center;
+}
+
+.two-heading {
+    margin: 81px 0 0 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    /* line-height: 56.25px; */
+    color: #EF6A25;
+    text-align: center;
+}
+
+.pro-heading {
+    background: url(./img/line.png) no-repeat;
+    padding-left: 17px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #EF6A25;
+}
+
+/* products */
+.p1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #807D7E;
+}
+
+.p2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.price-one {}
