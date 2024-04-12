@@ -234,4 +234,65 @@
     color: #000000;
 }
 
-.price-one {}
+.price-one {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #EF6A25;
+}
+
+.price {
+    display: flex;
+}
+
+.products-item {
+    /* background-color: #f1f1f1; */
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.pro {
+    display: flex;
+}
+
+.price-two {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696969;
+    padding: 8px;
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.dec {
+    /* padding: 20px; */
+}
+
+.product-two {
+    background: url(./img/line.png) no-repeat;
+    padding-left: 17px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #EF6A25;
+}
+
+.products-main-two {
+    display: flex;
+}
+
+.pro-main {
+    padding: 238px 0 0 0;
+
+}
+
+.pro {
+    padding: 32px 0 0 0;
+    align-items: center;
+}
